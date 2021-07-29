@@ -1,0 +1,33 @@
+.Main{
+  display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: blanchedalmond;
+}
+
+.NewPost form{
+  /* background-color: aqua; */
+  display: inline-flex;
+  flex-direction:column;
+}
+
+/* 
+.post1 p{
+  position: absolute;
+  left: 56%;
+  top: 14%;
+}
+.post1 h1{
+  position: absolute;
+  left: 56%;
+  top: 8%;
+}
+.post2 p{
+  position: absolute;
+  left: 56%;
+  top: 38%;
+}
+.post2 h1{
+  position: absolute;
+  left: 56%;
+  top: 32%;
+} */
