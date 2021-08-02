@@ -29,7 +29,6 @@ function NewsMain(props) {
                      <input type='title' placeholder='Заголовок' ref={newElement} />
                      {/* <input type='text' placeholder='Текст поста' ref={newElement} /> */}
                      <button onClick={addPost}>Создать Текст </button>
-
                   </form>
                </div>
 
