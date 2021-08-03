@@ -5,7 +5,7 @@ import s from './news.module.css'
 
 function News(props){
      return(
-     <div className= 'news'>
+     <div className= {s.news}>
         <NavLink to='/news'> news </NavLink>
      </div>
     )

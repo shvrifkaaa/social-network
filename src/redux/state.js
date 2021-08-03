@@ -11,23 +11,18 @@ let state ={
             title:'ЧП на велодорожке',
             text:'В районе Моссовета велосипедист сбил женщину.'
         }
-
     ],
 
-    addPost :(url, text, title)=>{
+    addPost :(url, title, text)=>{
 
         state.post.push({
             url: url,
-            text: text,
-            title: title
+            title:title,
+            text:text
         })
         renderder(state)
     }
-    
 }
-
-
-
 
 export default state
 

@@ -1,6 +1,4 @@
-
 import './index.css';
-
 import reportWebVitals from './reportWebVitals';
 import { renderder } from './render';
 import state from './redux/state';

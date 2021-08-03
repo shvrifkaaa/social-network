@@ -1,14 +1,3 @@
-.Main{
-  display: grid;
-    grid-template-columns: 1fr 3fr;
-    background-color: blanchedalmond;
-}
-
-.NewPost form{
-  /* background-color: aqua; */
-  display: inline-flex;
-  flex-direction:column;
-}
 
 /* 
 .post1 p{
